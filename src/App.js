@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import "./App.css"
+import Transition from './UseTransition'
+import Spring from './UseSpring'
+import FunColorAuto from './FunColorAuto'
+import CouruselBasic from './CouruselBasic'
+import CouruselImgs from './CoruselImgs'
+import Hero from './Hero'
+import Footer from './Footer'
+import ContentSection from './ContentSection'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Spring /> */}
+      {/* <Transition /> */}
+      {/* <FunColorAuto /> */}
+      {/* <CouruselBasic /> */}
+      {/* <CouruselImgs /> */}
+      <Hero />
+
+      <ContentSection reverse={true}/>
+      <ContentSection />
+      <ContentSection reverse={true}/>
+      <ContentSection />
+
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

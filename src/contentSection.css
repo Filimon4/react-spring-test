@@ -1,0 +1,30 @@
+.content-section-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 140px 50px;
+
+}
+
+.content-section-container-rev {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 140px 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content-reverse {
+    flex-direction: row-reverse;
+}
+
+.content-clm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.content-left p, .content-left h2 {
+    text-align: center;
+}
