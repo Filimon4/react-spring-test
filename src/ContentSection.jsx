@@ -10,12 +10,8 @@ import img5 from "./assets/img4.jpg";
 
 const SLIDES = [img1, img2, img3, img4, img5];
 
-const ContentSection = ({ reverse = false }) => {
-    const transitionStyle = {
-        from: { opacity: 0, display: "none" },
-        enter: { opacity: 1, display: "block" },
-        leave: { opacity: 0, display: "none" },
-    };
+const ContentSection = ({ reverse = false, transitionStyle }) => {
+    
 
     return (
         <div
