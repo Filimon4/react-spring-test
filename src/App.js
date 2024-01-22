@@ -22,9 +22,9 @@ const transitionStyle2 = {
 };
 
 const transitionStyle3 = {
-  from: { opacity: 0, transform: "rotateX(180deg)", display: "none" },
-  enter: { opacity: 1, transform: "rotateX(0deg)", display: "block" },
-  leave: { opacity: 0, transform: "rotateX(180deg)", display: "none" },
+  from: { opacity: 0, transform:  "perspective(900px) rotateX(180deg)", display: "none" },
+  enter: { opacity: 1, transform: "perspective(900px) rotateX(0deg)", display: "block" },
+  leave: { opacity: 0, transform: "perspective(900px) rotateX(180deg)", display: "none" },
 };
 const transitionStyle4 = {
   from: { opacity: 0, transform: "rotateZ(180deg)", display: "none" },
