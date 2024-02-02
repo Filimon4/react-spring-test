@@ -18,7 +18,7 @@ const Page = ({ offset, gradient, onClick }) => (
   </>
 )
 
-export default function App() {
+export default function Numbers() {
   const parallax = useRef(null)
 
   const scroll = (to) => {
